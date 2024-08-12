@@ -1,8 +1,8 @@
-{
+{ 
+  "homepage": "https://balu133.github.io/balaji-portfolio",
   "name": "balu-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://balu133.github.io/balaji-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
