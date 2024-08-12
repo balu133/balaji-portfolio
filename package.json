@@ -2,10 +2,13 @@
   "name": "balu-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/balu133/balaji-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
