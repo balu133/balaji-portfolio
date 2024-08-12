@@ -11,7 +11,7 @@ import SuccessPage from './components/SuccessPage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouterr>
+    <HashRouter>
        <Routes>
           <Route path='/' element={<Layout />}>
             <Route  path='' element={<App />} /> 
@@ -20,6 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           </Route>
           <Route path='/success' element={<SuccessPage />}/>
        </Routes>
-    </HashRouterr>
+    </HashRouter>
   </React.StrictMode>,
 )
